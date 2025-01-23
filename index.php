@@ -1,3 +1,9 @@
+<?php 
+$fonts = "Roboto";
+$color = "White";
+$bg = "Black";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +46,9 @@
 
     <section class="maincontent">
         <?php 
-            echo "I love Php";  
+            echo $fonts;  
+            echo $bg;
+            echo $color;
         ?>
     </section>
 
