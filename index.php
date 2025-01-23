@@ -8,7 +8,7 @@
         .phpcoding{
             width: 900px; 
             margin: 0 auto; 
-            background: #ddd;
+            background: <?php echo "#ddd"; ?>;
         }
         .headeroption,
         .footeroption {
@@ -34,7 +34,7 @@
 <div class="phpcoding">
 
     <section class="headeroption">
-        <h2>PHP Fundamentals Training </h2>
+        <h2> <?php echo "PHP Fundamentals Training ";?> </h2>
     </section>
 
 
@@ -46,7 +46,7 @@
 
 
     <section class="footeroption">
-        <h2>www.almumeetu.saiakt.com</h2>
+        <h2><?php echo "www.almumeetu.saikat.com"; ?></h2>
     </section>
 
 </div>
